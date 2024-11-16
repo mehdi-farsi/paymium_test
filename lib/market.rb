@@ -1,3 +1,5 @@
+require_relative './order.rb'
+
 class Market
   def submit(order)
   end
