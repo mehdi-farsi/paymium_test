@@ -1,4 +1,5 @@
 require_relative './order.rb'
+require_relative './service_base.rb'
 Dir[File.expand_path('lib/**/*.rb')].sort.each { |file| require file } # require service objects
 
 class Market
