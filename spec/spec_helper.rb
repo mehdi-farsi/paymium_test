@@ -1,4 +1,5 @@
-Dir[File.expand_path('lib/**/*.rb')].sort.each { |file| require file }
+require_relative '../lib/market.rb'
+
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|
 
